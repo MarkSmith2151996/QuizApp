@@ -1,0 +1,14 @@
+{
+    "name": "trivia-quiz-game",
+    "version": "1.0.0",
+    "description": "A trivia quiz game with multiple API sources",
+    "main": "server/server.js",  
+    "scripts": {
+      "start": "node server/server.js"  
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "node-fetch": "^2.6.1"
+    }
+  }
+  
