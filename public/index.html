@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <!-- Quiz Settings Section -->
+        <div id="quiz-settings" class="quiz-settings">
+            <h1 class="quiz-title">Trivia Quiz App</h1>
+            
+            <div class="settings-container">
+                <div class="dropdown">
+                    <label for="category">Category:</label>
+                    <select id="category">
+                        <option value="9">General Knowledge</option>
+                        <option value="11">Entertainment: Film</option>
+                        <option value="18">Science: Computers</option>
+                        <option value="30">Science: Gadgets</option>
+                        <option value="17">Science: Nature</option>
+                        <option value="15">Entertainment: Video Games</option>
+                        <option value="10">Entertainment: Books</option>
+                        <option value="12">Entertainment: Music</option>
+                        <option value="13">Entertainment: Theatre</option>
+                        <option value="29">Entertainment: Comics</option>
+                    </select>
+                </div>
+
+                <div class="dropdown">
+                    <label for="difficulty">Difficulty:</label>
+                    <select id="difficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+
+                <div class="dropdown">
+                    <label for="amount">Number of Questions:</label>
+                    <select id="amount">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+
+                <button id="startQuiz" class="start-btn">Start Quiz</button>
+            </div>
+        </div>
+
+        <!-- Quiz Container for Questions -->
+        <div id="quiz-container" class="quiz-content"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
